@@ -35,6 +35,8 @@ ul{
 .header-links{
   list-style: none;
   font-size: 24px;
+  color: orange;
+  text-decoration: none;
 }
 
 button{
@@ -52,6 +54,11 @@ button:hover{
   border: 1px solid #fff ;
   color: #fff;
   outline: none;
+}
+
+.main-container-wrapper{
+  
+
 }
 
 /* .create-account-btn{
