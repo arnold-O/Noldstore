@@ -9,6 +9,11 @@ import SinglePage from './components/SinglePage';
 import Contact from './components/Contact';
 import Cart from './components/Cart';
 import Faq from './components/Faq';
+import Fashion from './pages/Fashion';
+import Gaming from './pages/Gaming';
+import Headphones from './pages/Headphones';
+import Electronics from './pages/Electronics';
+import Shoes from './pages/Shoes';
 
 function App() {
   return (
@@ -23,6 +28,12 @@ function App() {
   <Route  path='/contact' element={<Contact/>}/>
   <Route  path='/cart' element={<Cart/>}/>
   <Route  path='/faq' element={<Faq/>}/>
+  <Route  path='/shoes' element={<Shoes/>}/>
+  <Route  path='/electronics' element={<Electronics/>}/>
+  <Route  path='/headphones' element={<Headphones/>}/>
+  <Route  path='/gaming' element={<Gaming/>}/>
+  <Route  path='/fashion' element={<Fashion/>}/>
+
   <Route  path='*' element={<Error/>}/>
 </Routes>
  

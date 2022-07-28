@@ -3,6 +3,7 @@ import { GiBowTieRibbon, GiConverseShoe } from "react-icons/gi";
 import { MdRadio } from "react-icons/md";
 import { FaHeadphonesAlt } from "react-icons/fa";
 import { IoGameControllerOutline } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 export default function Home() {
   return (
     <div className='main-container-wrapper'>
@@ -12,27 +13,27 @@ export default function Home() {
       <div className='category-section-left'>
         <div className='category-filter-section'>
          <GiBowTieRibbon className='header-icon'/>
-        <p>Fashion</p>
+        <Link className="links"  to="fashion">Fashion</Link>
         </div>
         <div className='category-filter-section'>
        < GiConverseShoe className='header-icon'/>
-        <p>Shoes</p>
+        <Link className="links"  to="shoes">Shoes</Link>
         </div>
-        <div className='category-filter-section'>
+        {/* <div className='category-filter-section'>
         <GiBowTieRibbon className='header-icon'/>
-        <p>product</p>
-        </div>
+        <Link to="fashion">product</Link>
+        </div> */}
         <div className='category-filter-section'>
       <FaHeadphonesAlt className='header-icon'/>
-        <p>Head Phones</p>
+        <Link className="links" to="headphones">Head Phones</Link>
         </div>
         <div className='category-filter-section'>
         <MdRadio className='header-icon'/>
-        <p>Electronics</p>
+        <Link className="links"  to="electronics">Electronics</Link>
         </div>
         <div className='category-filter-section'>
         <GiConverseShoe className='header-icon'/>
-        <p>Gaming</p>
+        <Link className="links"  to="gaming">Gaming</Link>
         </div>
       </div>
       </div>
