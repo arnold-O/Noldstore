@@ -6,7 +6,7 @@ export default function Navbar() {
    <header className='main-header-section'>
   <div className='header-wrapper'>
   <div className='logo'>
-        NoldOnline
+        NoldStore
     </div>
     <ul>
         <Link className='header-links'  to="about">About</Link>
