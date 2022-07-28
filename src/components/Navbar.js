@@ -11,12 +11,12 @@ export default function Navbar() {
     <ul>
         <Link className='header-links'  to="about">About</Link>
         <Link className='header-links'  to="contact">Contact</Link>
-        <Link className='header-links'  to="fag">Faq</Link>
+        <Link className='header-links'  to="faq">Faq</Link>
         <Link  className='header-links' to="cart">Cart</Link>
     </ul>
     <div>
         <button>Sign</button>
-        <button>Create Account</button>
+        <button className='create-account-btn'>Create Account</button>
     </div>
 
   </div>
