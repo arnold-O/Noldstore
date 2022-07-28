@@ -29,7 +29,14 @@ code {
 .logo{
   font-size: 34px;
   color: black;
+  list-style: none;
+
+  text-decoration: none;
   
+}
+.header-icon{
+  font-size: 24px;
+  color: #000;
 }
 
 ul{
@@ -63,7 +70,7 @@ button:hover{
 /* main container wrapper */
 .main-container-wrapper{
   width: 95%;
-  background-color: blue;
+  /* background-color: blue; */
   margin: 0 auto;
   
 
@@ -81,11 +88,59 @@ button:hover{
 /* hompage section */
 .category-filter-section{
   display: flex;
+  align-items: center;
+  gap: 12px;
+  color: white;
+  margin-bottom: 1rem;
+}
+.category-filter-section p{
+ font-size: 24px;
+ color: #000;
+}
+.headerWrapper-first{
+  width: 100%;
+  background-color: #fff;
+  margin-top: 1rem;
+  border-radius: 6px;
+  height: 300px;
+}
+.headerWrapper{
+  width:100%;
+ display:grid;
+ grid-template-columns: 23% 75%;
+gap: 2%;
+ 
+
+}
+.header-image-container{
+  margin-top: 1rem;
+  width: 100%;
+  height: 300px;
+  background-color : red;
+}
+.header-image-container img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+.category-section-left{
+  width: 80%;
+  margin: 0 auto;
+ 
+ 
+  
 }
 
 
 
 /* hompage section */
+
+
+
+/* latest Product Section */
+
+/* latest Product Section */
 
 
 

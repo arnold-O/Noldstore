@@ -5,8 +5,8 @@ export default function Navbar() {
   return (
    <header className='main-header-section'>
   <div className='header-wrapper'>
-  <div className='logo'>
-        NoldStore
+  <div >
+       <Link className='logo' to="/">NoldStore</Link>
     </div>
     <ul>
         <Link className='header-links'  to="about">About</Link>
