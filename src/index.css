@@ -140,7 +140,8 @@ ul {
 /* card section */
 .card-section-wrapper {
   display: flex;
-  gap: 5%;
+  justify-content: center;
+  gap: 1.5%;
 
 
   flex-wrap: wrap;

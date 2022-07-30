@@ -1,18 +1,26 @@
 import React from 'react'
+import { useGlobalContext } from '../context'
 
 export default function Card() {
+  const {product} = useGlobalContext()
+ 
+
   return (
     <div className='card-section-wrapper'>
 
-        <div className='each-card-wrapper'>
+      {
+        product.map((item)=>{
+          const {name, img, id, price } = item
+      
+       return <div key={id} className='each-card-wrapper'>
             <div className='image-wrapper'>
-                <img className='image-wrapper-img' src="https://images.unsplash.com/photo-1657299156000-2cccaea36b2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+                <img className='image-wrapper-img' src={img} alt="" />
             </div>
             <p className='product-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas assumenda consequuntur </p>
             
             <div className='price-amount-container'>
                 <p>Price</p>
-                <p>Amount</p>
+                <p>{price}</p>
             </div>
             <div className='call-to-action'>
             <button className='add-to-cartBtn'>Add To Cart</button>
@@ -21,6 +29,9 @@ export default function Card() {
             </div>
 
         </div>
+          })
+        }
+  
       
     </div>
   )

@@ -1,4 +1,5 @@
 import React, { useContext, useEffect, useReducer, useState } from "react"
+import data from "./components/data";
 
 
 import reducer from "./reducer";
@@ -6,9 +7,21 @@ import reducer from "./reducer";
 const AppContext = React.createContext()
 
 
+    const initialState = {
+        loading:false,
+        cart:[],
+        total:0,
+        amount:0,
+        product:data
+    }
+    
+
+
+
+
 
 const AppProvider = ({children})=>{
-    const [state, dispatch] = useReducer(reducer)
+    const [state, dispatch] = useReducer(reducer, initialState)
 
 
 
@@ -17,7 +30,7 @@ const AppProvider = ({children})=>{
 
 
    return <AppContext.Provider
-    value={{
+    value={{ ...state
       
     }}
   >
