@@ -27,7 +27,7 @@ description:""
     {id:4,
     name:"Sony 50W660 BRAVIA 50' Digital Smart FHD TV With Android OS",
 price:"800",
-img:"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+img:"https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/65/4226921/1.jpg?7745",
 reviews:"",
 description:""
 },
