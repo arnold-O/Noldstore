@@ -4,6 +4,8 @@ import { MdRadio } from "react-icons/md";
 import { FaHeadphonesAlt } from "react-icons/fa";
 import { IoGameControllerOutline } from "react-icons/io5";
 import { Link } from 'react-router-dom';
+import Footer from './Footer';
+import Card from './Card';
 export default function Home() {
   return (
     <div className='main-container-wrapper'>
@@ -54,30 +56,13 @@ export default function Home() {
 
      
       <h1 className='latest-product-title'>Latest Product</h1>
-      <div class="latest-product-display">
-          <div class="latest-products">
-            <div class="latest-product-box">
-              <img
-                src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/63/257805/1.jpg?2972"
-                alt=""
-                class="latest-product-img"
-              />
-            </div>
-            <div class="latest-product-container">
-              <p class="latest-product-name">The Techie mouse</p>
-              <p class="latest-product-des">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              </p>
-              <div class="latest-product-rev-price">
-                <p>reviews(💎💎💎💎)</p>
-                <p class="latest-product-price">$45.5</p>
-              </div>
-              <div class="latest-product-btn">
-                <p class="btn-p">Add To Cart</p>
-              </div>
-            </div>
-          </div>
-          </div>
+    
+               
+       
+            <Card/>
+          
+          
+          <Footer/>
     
      
     </div>

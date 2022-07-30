@@ -12,6 +12,15 @@ code {
     monospace;
 }
 
+/* main container wrapper */
+.main-container-wrapper{
+  width: 95%;
+  /* background-color: blue; */
+  margin: 0 auto;
+  
+
+}
+/* main container wrapper */
 .main-header-section{
   height: 4rem;
   background-color: #fff;
@@ -67,15 +76,7 @@ button:hover{
   outline: none;
 }
 
-/* main container wrapper */
-.main-container-wrapper{
-  width: 95%;
-  /* background-color: blue; */
-  margin: 0 auto;
-  
 
-}
-/* main container wrapper */
 
 /* .create-account-btn{
   background-color: #283104;
@@ -157,223 +158,30 @@ gap: 2%;
 
 
 /* card section */
-.container-latest-product {
-  margin-top: 35px;
-}
-
-.latest-product-header {
-  margin-bottom: 45px;
-  font-size: 30px;
-  text-align: center;
-  font-weight: 600;
-  margin-top: 60px;
-}
-
-.latest-product-display {
-  /* background-color:grey; */
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* justify-items:baseline ; */
-  /* display: flex;
-  justify-content: space-between; */
+.card-section-wrapper{
+  display: flex;
+  gap: 5%;
+  
   flex-wrap: wrap;
-  gap: 15px;
+}
+.each-card-wrapper{
+  width: 300px;
+  height: 120px;
 
-  /* gap: 20px; */
 }
 
-.latest-products {
-  width: 290px;
-  height: 420px;
-  /* border:1px solid rgb(123, 123, 131); */
-  margin-bottom: 25px;
-  background-color: #fff;
-  box-shadow: 0px 20px 30px 0px rgb(155, 148, 148);
-  border-radius: 12px;
-}
-/* .latest-products:hover{
-   
-
-    width: 290px;
-    height: 300px;
-    border:1px solid blue
-
-} */
-
-.latest-product-box {
-  width: 290px;
-  height: 220px;
-}
-.latest-product-img {
+.image-wrapper-img{
   width: 100%;
-  height: inherit;
+  height: auto;
+  
 }
-
-.latest-product-price {
-  font-size: 20px;
-  font-weight: 600;
-  font-family: sans-serif;
-  color: rgb(151, 10, 10);
-  padding: 6px;
-  border-radius: 5px;
-  background-color: #e1d2f3;
-}
-
-.latest-product-container {
-  width: 270px;
-  margin: 0 auto;
-}
-
-.latest-product-name {
-  font-size: 24px;
-  margin-top: 12px;
-  font-weight: 600;
-}
-.latest-product-des {
-  margin-top: 12px;
-  line-height: 1.5;
-  font-size: 16px;
-  font-family: sans-serif;
-}
-
-.latest-product-rev-price {
+.price-amount-container{
   display: flex;
-  align-items: center;
-
   justify-content: space-between;
-  margin-top: 12px;
-}
-
-.latest-product-btn {
-  margin-top: 12px;
-  background-color: rgb(42, 122, 42);
-  /* display: inline-block; */
-  display: flex;
-  justify-content: center;
-  text-align: center;
-
-  color: #fff;
-  padding: 8px;
-  width: 120px;
-  margin: 12px 75px;
-
-  cursor: pointer;
-  font-size: 16px;
-  border-radius: 100px;
+  align-items: center;
 }
 /* card section */
 
 
 
 
-
-
-/* footer part  start*/
-/* footer part  start*/
-
-.contact-us-page {
-  color: #fff;
-  margin-top: 12px;
-  text-decoration: none;
-}
-.contact-anchor-tag {
-  color: #fff;
-  text-decoration: none;
-}
-
-.footer-header {
-  width: 1300px;
-  height: 180px;
-  margin: 0 auto;
-  background-color: #282828;
-
-  /* margin-bottom: 55px; */
-}
-
-.first-footer-container {
-  max-width: 1024px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  flex-grow: 1;
-
-  justify-content: space-between;
-}
-
-.dowload-cont-footer {
-  margin-top: 50px;
-
-  color: #fff;
-  font-size: 16px;
-  text-transform: uppercase;
-}
-
-.footer-title {
-  margin-top: 50px;
-
-  font-size: 30px;
-  color: #fff;
-}
-
-.middle-footer-con {
-  margin-top: 50px;
-  justify-self: center;
-}
-
-.newsletter-cont {
-  margin: 12px 0px 12px;
-  color: #fff;
-  font-size: 14px;
-}
-
-.small-text-cont {
-  color: #fff;
-  font-size: 12px;
-  margin: 12px 0px 12px;
-}
-
-.new-letter-title {
-  color: #f5f5f5;
-}
-
-.dowload-store-link {
-  width: 120px;
-  height: 35px;
-}
-
-.download-link-image {
-  width: 100%;
-  height: inherit;
-}
-
-.flex-both-link {
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-input-form {
-  height: 30px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.input-newsletter {
-  width: 300px;
-  height: inherit;
-  border: none;
-  padding: 5px;
-}
-
-.send-newsletter-btn {
-  border: 1px solid #fff;
-  width: 50px;
-  background-color: #282828;
-  color: #fff;
-  border-radius: 5px;
-}
-
-.hidden {
-  display: none;
-}
-
-/* foooter 2222 */
