@@ -15,8 +15,8 @@ export default function Navbar() {
         <Link  className='header-links' to="cart">Cart</Link>
     </ul>
     <div>
-        <button>Sign</button>
-        <button className='create-account-btn'>Create Account</button>
+        <button className='header-call-to-action-btn'>Sign</button>
+        <button className='create-account-btn header-call-to-action-btn'>Create Account</button>
     </div>
 
   </div>
