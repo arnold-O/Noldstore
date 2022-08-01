@@ -243,3 +243,73 @@ ul {
 /* add to cart btn & details button */
 
 /* card section */
+
+
+/* footer section */
+
+.footer-section-wrapper{
+ 
+  background-color: #282828;
+
+}
+.newsletter-section-wrapper{
+  display: flex;
+  align-items: center;
+
+}
+.newsletter-section-wrapper button{
+
+}
+.footer-items-wrapper{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 auto;
+  padding: 2rem 0 ;
+
+}
+.footer-title{
+  color: #fff;
+}
+.news-section{
+  color:#fff
+}
+.input-text{
+  height: 1.5rem;
+  width: 20rem;
+  padding: 4px;
+  font-size: 18px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+}
+.newsletter-section-wrapper{
+  display: flex;
+  gap: 1rem;
+
+}
+.newsletter-section-wrapper button{
+  width: 4rem;
+  height: 35px;
+  border: 1px solid #fff;
+  background-color: #282828;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 20px;
+  
+}
+.icon-wrapper{
+  text-align: center;
+}
+.social-section-wrapper h2{
+  color: #fff;
+}
+.react-icons{
+  color: #fff;
+  margin-left: .875rem;
+}
+
+
+/* footer section */

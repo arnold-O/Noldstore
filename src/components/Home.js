@@ -8,6 +8,7 @@ import Footer from './Footer';
 import Card from './Card';
 export default function Home() {
   return (
+    <>
     <div className='main-container-wrapper'>
 
       <div className="headerWrapper">
@@ -62,9 +63,10 @@ export default function Home() {
             <Card/>
           
           
-          <Footer/>
     
      
     </div>
+          <Footer/>
+          </>
   )
 }
