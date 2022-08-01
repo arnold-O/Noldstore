@@ -313,3 +313,91 @@ ul {
 
 
 /* footer section */
+
+
+
+
+
+/* single product */
+.single-product-wrapper{
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 75% 25%;
+  margin-bottom: 9rem
+  
+
+
+}
+.single-img-wrapper{
+  width: 300px;
+  height: 220px;
+
+}
+.single-img-wrapper img{
+  width: 100%;
+  height: inherit;
+}
+.each-item-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+ 
+  column-gap: 6px;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 8px;
+
+}
+
+.singlepage-cart-btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+   background-color: orange;
+   color: #fff;
+   padding: .5rem 0;
+   font-size: 20px;
+outline: none;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+box-shadow: 5px 5px 6px grey;
+}
+.cart-icon{
+  font-size: 30px;
+  margin-left: 1.2rem;
+}
+.price-wrapper{
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0 0;
+}
+.product-price  {
+  font-size: 25px;
+  font-weight: 700;
+ 
+}
+.product-price-icon{
+  font-size: 25px;
+  font-weight: 700;
+ 
+
+}
+.price-wrapper-dicount{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+ 
+
+}
+.product-price-icon-discount{
+
+  
+ 
+
+}
+.product-price-discount{
+  text-decoration: line-through;
+  color: grey;
+}
+/* single product */

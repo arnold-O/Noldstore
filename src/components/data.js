@@ -10,7 +10,7 @@ description:""
 
     {id:2,
     name:"Arctic Hunter Halo Anti Theft Laptop Bag & Travel Backpack",
-price:"500",
+price:"500.00",
 img:"https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/00/8476411/1.jpg?8823",
 reviews:"",
 description:""
@@ -26,7 +26,7 @@ description:""
 
     {id:4,
     name:"Sony 50W660 BRAVIA 50' Digital Smart FHD TV With Android OS",
-price:"800",
+price:"800.00",
 img:"https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/65/4226921/1.jpg?7745",
 reviews:"",
 description:""
@@ -34,7 +34,7 @@ description:""
 
     {id:5,
     name:"Lenovo IdeaPad Core I3 4GB RAM 1TB ROM Freedos",
-price:"700",
+price:"700.00",
 img:"https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/04/5722921/1.jpg?6735",
 reviews:"",
 description:""
@@ -42,14 +42,14 @@ description:""
 
     {id:6,
     name:"Happy Baby Foldable Baby Crib With Net",
-price:"600",
+price:"600.00",
 img:"https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/47/462473/1.jpg?3436",
 reviews:"",
 description:""
 },
     {id:7,
     name:"Happy Baby Foldable Baby Crib With Net",
-price:"600",
+price:"600.00",
 img:"https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/47/462473/1.jpg?3436",
 reviews:"",
 description:""

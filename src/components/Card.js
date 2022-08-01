@@ -20,8 +20,8 @@ export default function Card() {
             <p className='product-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas assumenda consequuntur </p>
             
             <div className='price-amount-container'>
-                <p>Price</p>
-                <p>{price}</p>
+                <p >Price</p>
+                <p >{price}</p>
             </div>
             <div className='call-to-action'>
             <button className='add-to-cartBtn'>Add To Cart</button>
