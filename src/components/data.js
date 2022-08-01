@@ -47,4 +47,18 @@ img:"https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/47/46
 reviews:"",
 description:""
 },
+    {id:7,
+    name:"Happy Baby Foldable Baby Crib With Net",
+price:"600",
+img:"https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/47/462473/1.jpg?3436",
+reviews:"",
+description:""
+},
+    {id:8,
+    name:"Happy Baby Foldable Baby Crib With Net",
+price:"600",
+img:"https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/47/462473/1.jpg?3436",
+reviews:"",
+description:""
+},
 ]

@@ -24,7 +24,7 @@ function App() {
      
   <Route  path='/' element={<Home/>}/>
   <Route  path='/about' element={<About/>}/>
-  <Route  path='/singlepage/:productdId' element={<SinglePage/>}/>
+  <Route  path='/singlepage/:productId' element={<SinglePage/>}/>
   <Route  path='/contact' element={<Contact/>}/>
   <Route  path='/cart' element={<Cart/>}/>
   <Route  path='/faq' element={<Faq/>}/>

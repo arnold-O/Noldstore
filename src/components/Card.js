@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { useGlobalContext } from '../context'
 
 export default function Card() {
@@ -24,7 +25,9 @@ export default function Card() {
             </div>
             <div className='call-to-action'>
             <button className='add-to-cartBtn'>Add To Cart</button>
-            <button className='view-details-Btn'>Details</button>
+            <div className='view-details-Btn'>
+            <Link className='details-btn-link' to={`/singlepage/${id}`} >Details</Link>
+            </div>
 
             </div>
 
