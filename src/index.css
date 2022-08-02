@@ -414,7 +414,29 @@ box-shadow: 5px 5px 6px grey;
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr;
+  
 }
 
+.login-image-placeholder{
+  width: 450px;
+  height: 350px
+}
+.login-image-placeholder img{
+  width: 100%;
+  height: inherit;
+}
+.form-input-wrapper{
 
+  justify-self: center;
+ 
+}
+.login-form-pass{
+
+  margin-top: 25px;
+}
+
+.input-form{
+  width: 300px;
+  height: 25px;
+}
 /* login form */
