@@ -414,6 +414,9 @@ box-shadow: 5px 5px 6px grey;
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr;
+  background-color: #fff;
+  margin-top: 30px;
+  border-radius: 5px;
   
 }
 
@@ -435,8 +438,41 @@ box-shadow: 5px 5px 6px grey;
   margin-top: 25px;
 }
 
-.input-form{
+.input-form-pass, .input-form-email{
   width: 300px;
   height: 25px;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 2px solid orange;
+  outline: none;
+  padding-left: 5px;
+}
+
+.login-button{
+  width: 300px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: orange;
+  color: #fff;
+  cursor: pointer;
+}
+.login-button:hover{
+  width: 300px;
+  height: 32px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: rgb(163, 108, 7);
+  color: #fff;
+  
+}
+.login-form-pass{
+  margin-bottom: 50px;
+}
+.login-form-email{
+  margin-top: 15px;
 }
 /* login form */
