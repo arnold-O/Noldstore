@@ -14,6 +14,7 @@ import Gaming from './pages/Gaming';
 import Headphones from './pages/Headphones';
 import Electronics from './pages/Electronics';
 import Shoes from './pages/Shoes';
+import Login from './pages/Login';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
   <Route  path='/headphones' element={<Headphones/>}/>
   <Route  path='/gaming' element={<Gaming/>}/>
   <Route  path='/fashion' element={<Fashion/>}/>
+  <Route  path='/login' element={<Login/>}/>
 
   <Route  path='*' element={<Error/>}/>
 </Routes>

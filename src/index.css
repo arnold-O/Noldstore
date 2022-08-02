@@ -405,3 +405,16 @@ box-shadow: 5px 5px 6px grey;
   color: red;
 }
 /* single product */
+
+
+
+/* login form */
+.login-form-wrapper{
+ 
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+/* login form */
