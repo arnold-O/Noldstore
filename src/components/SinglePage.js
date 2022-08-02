@@ -33,6 +33,9 @@ export default function SinglePage() {
           <div className='price-wrapper-dicount'>
           <p><TbCurrencyNaira className='product-price-icon-discount'/></p><p className='product-price-discount'>{price*1.2}</p>
           </div>
+    
+            <p className='shipping-info'>Shipping starting from 1000 naira, for customers in lagos</p>
+       
 
             <button className='singlepage-cart-btn'>
             <MdOutlineAddShoppingCart className='cart-icon'/>
