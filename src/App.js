@@ -15,15 +15,17 @@ import Headphones from './pages/Headphones';
 import Electronics from './pages/Electronics';
 import Shoes from './pages/Shoes';
 import Login from './pages/Login';
+import { useState } from 'react';
 
 function App() {
+  const [user, setUser] = useState(null)
   return (
     <BrowserRouter>
       
       <Navbar/>
       <Routes>
      
-  <Route  path='/' element={<Home/>}/>
+  <Route  path='/' element={<Home user={user}/>}/>
   <Route  path='/about' element={<About/>}/>
   <Route  path='/singlepage/:productId' element={<SinglePage/>}/>
   <Route  path='/contact' element={<Contact/>}/>
@@ -34,9 +36,9 @@ function App() {
   <Route  path='/headphones' element={<Headphones/>}/>
   <Route  path='/gaming' element={<Gaming/>}/>
   <Route  path='/fashion' element={<Fashion/>}/>
-  <Route  path='/login' element={<Login/>}/>
-
+  <Route  path='/login' element={<Login setUser = {setUser}/>}/>
   <Route  path='*' element={<Error/>}/>
+  
 </Routes>
  
   

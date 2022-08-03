@@ -6,7 +6,7 @@ import { IoGameControllerOutline } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
 import Card from './Card';
-export default function Home() {
+export default function Home({user}) {
   return (
     <>
     <div className='main-container-wrapper'>
@@ -51,6 +51,8 @@ export default function Home() {
 
       </div>
       <div className="headerWrapper-first">
+        <p> hello, {user?.email}</p>
+      
         
       </div>
       </div>

@@ -8,6 +8,7 @@ export default function Navbar() {
   <div >
        <Link className='logo' to="/">NoldStore</Link>
     </div>
+   
     <ul>
         <Link className='header-links'  to="about">About</Link>
         <Link className='header-links'  to="contact">Contact</Link>

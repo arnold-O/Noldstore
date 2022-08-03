@@ -250,7 +250,7 @@ ul {
 .footer-section-wrapper{
  
   background-color: #282828;
-
+  
 }
 .newsletter-section-wrapper{
   display: flex;
@@ -313,6 +313,9 @@ ul {
 
 
 /* footer section */
+
+/* position:absolute;
+   bottom:0; */
 
 
 
@@ -417,6 +420,7 @@ box-shadow: 5px 5px 6px grey;
   background-color: #fff;
   margin-top: 30px;
   border-radius: 5px;
+  margin-bottom: 90px;
   
 }
 
@@ -431,6 +435,7 @@ box-shadow: 5px 5px 6px grey;
 .form-input-wrapper{
 
   justify-self: center;
+
  
 }
 .login-form-pass{
@@ -476,3 +481,121 @@ box-shadow: 5px 5px 6px grey;
   margin-top: 15px;
 }
 /* login form */
+
+
+
+/* cart session */
+
+.cart-section-wrapper{
+  display: flex;
+  justify-content: space-between;
+  gap: 2%;
+  margin-top: 30px;
+}
+.cart-item-sumary{
+  width: 20%;
+  background-color: #fff;
+
+
+}
+.cart-item-section{
+  width: 78%;
+  background-color: #fff;
+}
+.each-cart-item{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+/* align-items: center; */
+
+}
+.cart-image-wrapper{
+  width: 150px;
+  height: 150px;
+}
+.each-item-details{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+
+}
+.cart-image-wrapper img{
+  width: 100%;
+  height: inherit;
+}
+.cart-item-header{
+  color: black;
+
+  text-align: center;
+  font-size: 30px;
+  padding-top: 1rem;
+}
+.horizontal-cart{
+  width: 100%;
+  height: 1px;
+  background-color: rgb(219, 211, 211);
+}
+sup{
+  color: orange;
+}
+
+.price-discount-wrapper p{
+  color: #000;
+
+
+}
+.size-of-item{
+  display: flex;
+  gap: 3px;
+}
+.product-current-price-cart{
+  color: red;
+  font-weight: 600;
+  margin: 0;
+  font-size: 22px;
+}
+.price-wrapper-dicount-cart{
+  display: flex;
+  align-items: center;
+ 
+
+}
+.oldprice-percent-wrapper{
+  display: flex;
+ 
+
+ 
+}
+.product-oldprice-cart{
+  color: grey;
+    text-align: end;
+  /* text-decoration: line-through; */
+ 
+  font-size: 20px;
+  font-weight: 400;
+ 
+  
+}
+
+.product-percent-off-cart{
+  
+}
+.counter-item-cart{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.couter-item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  justify-content: space-between;
+  gap: 2px;
+}
+.counter-plus, .counter-minus{
+  padding: 6px;
+  background-color: orange;
+}
+/* cart session */
