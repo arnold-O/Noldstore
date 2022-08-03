@@ -24,18 +24,18 @@ export default function Cart() {
 
               <p>Trendyol Collection Gray Men's Oversize Crew Neck Short Sleeve </p>
               <div className="size-of-item">
-              <p>size:</p> 
+              <p >Size:</p> 
               <p>EU 41</p>
               </div>
               </div>
 
               <div className="price-discount-wrapper">
               <div className='price-wrapper-dicount-cart'>
-          <p><TbCurrencyNaira className='product-price-icon-discount'/></p><p className='product-current-price-cart'>5000</p>
+          <p><TbCurrencyNaira className='product-price-icon-discount'/></p><p className='product-current-price-cart'>5,000</p>
           </div>
                 <div className="oldprice-percent-wrapper">
                   <p><TbCurrencyNaira className='product-price-icon-discount'/></p>
-                <p className="product-oldprice-cart">6500</p>
+                <p className="product-oldprice-cart">6,500</p>
                 
                 </div>
               </div>
@@ -44,7 +44,7 @@ export default function Cart() {
           </div>
           <div className="counter-item-cart">
 
-              <p className="delete">Remove</p>
+          <button  className="delete-eachItem-button">Remove</button>
               <div className="couter-item">
               <AiOutlineMinus className="counter-minus"/>
               <p>0</p>
@@ -68,18 +68,18 @@ export default function Cart() {
 
               <p>Trendyol Collection Gray Men's Oversize Crew Neck Short Sleeve </p>
               <div className="size-of-item">
-              <p>size:</p> 
+              <p>Size:</p> 
               <p>EU 41</p>
               </div>
               </div>
 
               <div className="price-discount-wrapper">
               <div className='price-wrapper-dicount-cart'>
-          <p><TbCurrencyNaira className='product-price-icon-discount'/></p><p className='product-current-price-cart'>5000</p>
+          <p><TbCurrencyNaira className='product-price-icon-discount'/></p><p className='product-current-price-cart'>5,000</p>
           </div>
                 <div className="oldprice-percent-wrapper">
                   <p><TbCurrencyNaira className='product-price-icon-discount'/></p>
-                <p className="product-oldprice-cart">6500</p>
+                <p className="product-oldprice-cart">6,500</p>
                 
                 </div>
               </div>
@@ -88,10 +88,12 @@ export default function Cart() {
           </div>
           <div className="counter-item-cart">
 
-              <p className="delete">Remove</p>
+           
+                <button  className="delete-eachItem-button">Remove</button>
+             
               <div className="couter-item">
               <AiOutlineMinus className="counter-minus"/>
-              <p>0</p>
+              <p>1</p>
               <AiOutlinePlus className="counter-plus"/>
               </div>
 

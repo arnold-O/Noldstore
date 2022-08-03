@@ -19,13 +19,15 @@ const AppContext = React.createContext()
 
 
 
-
 const AppProvider = ({children})=>{
     const [state, dispatch] = useReducer(reducer, initialState)
 
 
 
-  
+    const addToCart = () =>{
+      dispatch({type:"ADD_TO_CART"})
+    }
+    
 
 
 
