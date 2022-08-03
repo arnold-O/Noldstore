@@ -16,6 +16,7 @@ import Electronics from './pages/Electronics';
 import Shoes from './pages/Shoes';
 import Login from './pages/Login';
 import { useState } from 'react';
+import ProtectedRoute from './pages/ProtectedRoute';
 
 function App() {
   const [user, setUser] = useState(null)
@@ -32,13 +33,16 @@ function App() {
   <Route  path='/cart' element={<Cart/>}/>
   <Route  path='/faq' element={<Faq/>}/>
   <Route  path='/shoes' element={<Shoes/>}/>
-  <Route  path='/electronics' element={<Electronics/>}/>
+  <Route  path='/electronics' element={ 
+  <ProtectedRoute user={user}>
+  <Electronics/> 
+  </ProtectedRoute>} />
   <Route  path='/headphones' element={<Headphones/>}/>
   <Route  path='/gaming' element={<Gaming/>}/>
   <Route  path='/fashion' element={<Fashion/>}/>
   <Route  path='/login' element={<Login setUser = {setUser}/>}/>
   <Route  path='*' element={<Error/>}/>
-  
+
 </Routes>
  
   
